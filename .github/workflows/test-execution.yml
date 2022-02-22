@@ -22,7 +22,7 @@ jobs:
         run: |
           chmod +x ./script/install_chrome.sh
            ./script/install_chrome.sh
-      - name: Grant execute permission for gradlew
+      - name: Grant execute permissions for gradlew
         run: chmod +x gradlew
       - name: Build with Gradle
         run: ./gradlew test --info
